@@ -174,7 +174,8 @@ If You Still Don't Get Movies then Owner Will Update Within 12Hour"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-❤️‍🔥 Join TELUGU MOVIES 999  
+ <a href=https://t.me/ThyviewFilms4u>❤️‍🔥 Join TELUGU MOVIES 999   </a>
+          
            </b>"""
 
     IMDB_TEMPLATE_TXT = """
