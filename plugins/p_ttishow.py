@@ -39,10 +39,8 @@ async def save_group(bot, message):
             return
         buttons = [[
                     InlineKeyboardButton('🌺 ʜᴇʟᴘ ✨', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                    InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴜ', url='https://t.me/filmy_men')
-                 ],[
-                    InlineKeyboardButton("ʙᴏᴛ ᴏᴡɴᴇʀ", url="t.me/syrus_143_hpy")
-                  ]]
+                    InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴜ', url='https://t.me/ThyviewFilms4u')
+        ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
             text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
@@ -62,9 +60,7 @@ async def save_group(bot, message):
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
                                                                            InlineKeyboardButton('🌺 ʜᴇʟᴘ ✨', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                                                                           InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ 💕', url='https://t.me/filmy_men')
-                                                                        ],[
-                                                                           InlineKeyboardButton("ʙᴏᴛ ᴏᴡɴᴇʀ", url="t.me/syrus_143_hpy")
+                                                                           InlineKeyboardButton('✨ ᴍʏ ᴄʜᴀɴɴᴇʟ 💕', url='https://t.me/ThyviewFilms4u')
                                                                          ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
